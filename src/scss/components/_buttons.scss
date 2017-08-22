@@ -1,0 +1,36 @@
+//Footer button
+.btn {
+    background-color: $baseSand;
+    color: $baseDark;
+    font-family: $abolon;
+    border-radius: 0.5em;
+    margin-bottom: 0.5em;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+}
+
+.btn:hover {
+    background-color: $baseWhite;
+}
+
+//About Buttons
+.resume-button {
+    margin-right: 1.3em;
+    font-family: $oswaldBold;
+    font-size: 1.5em;
+    vertical-align: middle;
+    border: none;
+    background: none;
+}
+
+@media only screen and (max-width: 767px) {
+    .resume-button {
+        margin-left: 0;
+        font-family: $oswaldBold;
+        font-size: 1.4em;
+        vertical-align: middle;
+        border: none;
+        background: none;
+    }
+}
