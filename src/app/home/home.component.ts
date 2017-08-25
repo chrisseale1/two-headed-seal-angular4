@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-home',
@@ -6,16 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
-  homeTitle = 'Welcome to the homepage, fool....';
-  myString = 'I am metaluna';
-  myBoolean = true;
-  ninja = {
-    name: 'Yoshi',
-    belt: 'black'
-  };
-  alertMe (val) {
-    alert(val);
-  }
+  title = 'app works!, woop woop!';
+  
   constructor() { }
 
   ngOnInit() {
